@@ -1,54 +1,58 @@
-# Hi, I'm Nabeegh 👋
+# Hi, I'm Nabeegh Khan 👋
 
-**MEng Candidate — Electrical & Computer Engineering, University of Toronto** *(graduating December 2026)*  
+**MEng Candidate — Electrical & Computer Engineering, University of Toronto** (graduating December 2026)  
 **MEM — Data Analytics & Product Innovation, University of Ottawa**  
 **P.Eng | PMP**
 
 ---
 
-### What I Work On
+## What I Work On
 
-I build machine learning systems at the intersection of **AI, wireless communications, and data analytics** — with a focus on problems that matter at scale. My current research emphasis is on deep learning and reinforcement learning applied to next-generation network optimization.
+I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans deep reinforcement learning for 6G network optimization, transformer-based NLP for bibliometric analysis, and mixed-methods research combining survey statistics with large-scale text analysis.
+
+My current focus: demonstrating that the same rigorous analytical thinking that applies to wireless resource management applies equally to research pipelines, API-driven data collection, and academic knowledge synthesis.
 
 ---
 
-### Technical Skills
+## Technical Skills
 
-**Machine Learning & AI**  
-Deep Reinforcement Learning · CNN · LSTM · RNN · Supervised Learning · Reward Regression · scikit-learn · PyTorch · Stable-Baselines3
+**Machine Learning & AI**
+Deep Reinforcement Learning · CNN · LSTM · RNN · BERTopic · Supervised Learning · Reward Regression · scikit-learn · PyTorch · Stable-Baselines3 · sentence-transformers
 
-**Data Analytics**  
-Time Series Forecasting · Feature Engineering · Statistical Modeling · pandas · NumPy · matplotlib
+**NLP & Text Analytics**
+BERTopic · VADER Sentiment Analysis · spaCy · NLTK · Topic Modeling · Qualitative Coding · UMAP · HDBSCAN
 
-**Wireless & Communications**  
+**Data Analytics & Statistics**
+Bibliometric Analysis · Chi-Square Testing · OLS Regression · ANOVA · Cronbach's Alpha · Time Series Forecasting · Feature Engineering · pandas · NumPy · scipy · statsmodels · pingouin
+
+**API Integration & Data Collection**
+REST API pipelines · OpenAlex API · Semantic Scholar API · Reddit .json endpoints · Pagination & Rate Limiting
+
+**Wireless & Communications**
 Massive MIMO · 6G AI-RAN · Power Allocation · Spectral Efficiency · Gymnasium Environments
 
-**Tools & Platforms**  
-Python · Git · Google Colab · Jupyter · SQL
+**Visualization & Reporting**
+Matplotlib · Seaborn · Plotly (interactive) · Tableau · Power BI · Publication-quality figures (300 DPI)
+
+**Tools & Platforms**
+Python · Git · Jupyter · Google Colab · SQL · Microsoft Azure · AWS
 
 ---
 
-### Featured Projects
+## Portfolio Projects
 
 | Project | Description | Stack |
-|---------|-------------|-------|
-| [6G Massive MIMO Resource Allocation](https://github.com/nabeegh-khan/6g-mimo-resource-allocation) | DQN vs supervised learning for power allocation in multi-cell Massive MIMO — benchmarked on a physics-based 6G AI-RAN environment | PyTorch · SB3 · Gymnasium |
-| [AMC Deep Learning](https://github.com/nabeegh-khan/amc-deep-learning) | Automatic modulation classification using CNN, LSTM, and hybrid architectures | PyTorch · NumPy |
-| [Ontario Electricity Demand Forecasting](https://github.com/nabeegh-khan/Ontario-Electricity-Demand-Forecasting) | Short-term electricity demand forecasting achieving 50.7% RMSE improvement using neural networks | TensorFlow · pandas |
+|---|---|---|
+| [**AI-in-Education Bibliometric + NLP Analysis**](https://github.com/nabeegh-khan/ai-education-bibliometric-analysis) | Dual-API pipeline collecting 4,403 papers via OpenAlex & Semantic Scholar. BERTopic discovered 27 research clusters. Chi-square confirmed significant post-ChatGPT topic shift (χ²=323.87, p<0.0001). Exponential growth modeled at 30.7%/year (R²=0.844). | BERTopic · VADER · spaCy · OpenAlex API · pandas · scipy |
+| [**6G Massive MIMO Resource Allocation**](https://github.com/nabeegh-khan/6g-mimo-resource-allocation) | DQN vs supervised learning for power allocation in multi-cell Massive MIMO — 4.4x reward improvement over random baseline; CNN and RNN matched DQN controller performance via reward regression | PyTorch · SB3 · Gymnasium |
+| [**Automatic Modulation Classification**](https://github.com/nabeegh-khan/amc-deep-learning) | CNN, LSTM, and hybrid architectures for classifying 11 modulation types across 220,000 RF samples. 72.7% accuracy at high SNR. | PyTorch · NumPy |
+| [**Ontario Electricity Demand Forecasting**](https://github.com/nabeegh-khan/Ontario-Electricity-Demand-Forecasting) | End-to-end ML pipeline on 109,000+ hourly records. 50.7% RMSE improvement over baseline (R²=0.9928) using neural network. | scikit-learn · XGBoost · pandas |
+
+*Projects in progress: AI-in-Education Mixed-Methods Survey + Reddit Discourse Analysis · 6G Cross-Platform Discourse Analysis*
 
 ---
 
-### Currently
+## Currently
 
 - 📡 Researching AI-native wireless resource management for 6G networks
-- 🤖 Exploring reinforcement learning and supervised alternatives for real-time control problems
-- 📊 Building portfolio projects at the intersection of ML, data analytics, and communications engineering
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Expert-blue?style=flat-square&logo=python" />
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-ee4c2c?style=flat-square&logo=pytorch" />
-  <img src="https://img.shields.io/badge/Domain-6G%20%7C%20AI--RAN-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Research%20Opportunities-brightgreen?style=flat-square" />
-</p>
+- 🔬 Building mixed-methods research pipelines combining NLP, survey statistics, and API-driven data collection
