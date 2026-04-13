@@ -8,7 +8,7 @@
 
 ## What I Work On
 
-I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans deep reinforcement learning for 6G network optimization, real-world mmWave beam prediction on live V2V measurements, transformer-based NLP for bibliometric analysis, and mixed-methods research combining survey statistics with large-scale text analysis.
+I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans deep reinforcement learning for 6G network optimization, real-world mmWave beam prediction on live V2V measurements, transformer-based NLP for bibliometric analysis, mixed-methods research combining survey statistics with large-scale text analysis, and cloud-based big data engineering on Apache Spark and Microsoft Azure.
 
 **Current focus:** applying rigorous ML methodology across domains — from real-world mmWave beam management on live V2V measurements to NLP-driven research synthesis — with an emphasis on reproducible, end-to-end pipelines that bridge academic research and engineering practice.
 
@@ -25,6 +25,9 @@ BERTopic · VADER Sentiment Analysis · spaCy · NLTK · Topic Modeling · Quali
 **Data Analytics & Statistics**
 Bibliometric Analysis · Chi-Square · ANOVA · Ordinal Logistic Regression · Cronbach's Alpha · Mann-Whitney U · OLS Regression · Time Series Forecasting · Feature Engineering · pandas · NumPy · scipy · statsmodels
 
+**Big Data & Cloud Engineering**
+Apache Spark (RDD & DataFrame APIs) · Spark SQL · Scala · Databricks · Microsoft Azure Synapse Analytics · Azure Data Lake · Hadoop Ecosystem · NoSQL Databases (MongoDB · Cassandra)
+
 **API Integration & Data Collection**
 REST API pipelines · OpenAlex API · Semantic Scholar API · Reddit .json endpoints · Pagination & Rate Limiting
 
@@ -35,7 +38,7 @@ mmWave Beam Prediction · Beamforming Codebook Optimization · V2V Communication
 Matplotlib · Seaborn · Plotly (interactive) · Tableau · Power BI · Publication-quality figures (300 DPI)
 
 **Tools & Platforms**
-Python · Git · Jupyter · Google Colab · SQL · Microsoft Azure · AWS
+Python · Scala · SQL · Git · Jupyter · Google Colab · Microsoft Azure · AWS · Databricks
 
 ---
 
@@ -48,6 +51,7 @@ Python · Git · Jupyter · Google Colab · SQL · Microsoft Azure · AWS
 | [**AI in the Classroom — Mixed-Methods Survey + Reddit Analysis**](https://github.com/nabeegh-khan/ai-education-mixed-methods) | Convergent-parallel mixed-methods pipeline integrating two survey datasets (n=625) with 465 Reddit posts. Ordinal regression identified Attitude Toward Use as dominant predictor of AI adoption (OR=8.32, p<0.001). BERTopic + VADER surfaced a utility paradox — surveys show 7.44/10 utility ratings while AI writing tools discourse scored lowest sentiment (0.155). | BERTopic · VADER · spaCy · statsmodels · Reddit API |
 | [**AI-in-Education Bibliometric + NLP Analysis**](https://github.com/nabeegh-khan/ai-education-bibliometric-analysis) | Dual-API pipeline collecting 4,403 papers via OpenAlex & Semantic Scholar. BERTopic discovered 27 research clusters. Chi-square confirmed significant post-ChatGPT topic shift (χ²=323.87, p<0.0001). Exponential publication growth modeled at 30.7%/year (R²=0.844). | BERTopic · VADER · OpenAlex API · pandas · scipy |
 | [**Ontario Electricity Demand Forecasting**](https://github.com/nabeegh-khan/Ontario-Electricity-Demand-Forecasting) | End-to-end ML pipeline on 109,000+ hourly records from 4 integrated data sources (IESO, Environment Canada, NASA POWER). 13 engineered features including temporal lags, degree days, and cyclical encodings. 50.7% RMSE improvement over baseline (R²=0.9928) using 3-layer neural network across 5 model comparison. | scikit-learn · XGBoost · PyTorch · pandas |
+| [**Big Data Analytics — Apache Spark & Azure Synapse**](https://github.com/nabeegh-khan/big-data-analytics-spark-azure) | Distributed data processing using Apache Spark RDD and DataFrame APIs (Scala/Databricks) and cloud-scale SQL analytics on Microsoft Azure Synapse Analytics. Covers multi-file text corpus processing, retail transaction analysis across daily partitioned CSVs, and bike rental analytics with multi-table joins on a 24MB real-world dataset. | Apache Spark · Scala · Databricks · Azure Synapse · T-SQL |
 
 ---
 
