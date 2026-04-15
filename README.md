@@ -10,16 +10,22 @@
 
 ## What I Work On
 
-I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans deep reinforcement learning for 6G network optimization, real-world mmWave beam prediction on live V2V measurements, production RAG systems for technical document retrieval, transformer-based NLP for bibliometric analysis, mixed-methods research combining survey statistics with large-scale text analysis, and cloud-based big data engineering on Apache Spark and Microsoft Azure.
+I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans deep reinforcement learning for 6G network optimization, real-world mmWave beam prediction on live V2V measurements, production RAG systems for technical document retrieval, real-time streaming ML pipelines with full MLOps infrastructure, transformer-based NLP for bibliometric analysis, mixed-methods research combining survey statistics with large-scale text analysis, and cloud-based big data engineering on Apache Spark and Microsoft Azure.
 
-**Current focus:** applying rigorous ML methodology across domains — from real-world mmWave beam management and LLM-powered standards retrieval to NLP-driven research synthesis — with an emphasis on reproducible, end-to-end pipelines that bridge academic research and engineering practice.
+**Current focus:** applying rigorous ML methodology across domains — from real-world mmWave beam management and LLM-powered standards retrieval to production MLOps pipelines and NLP-driven research synthesis — with an emphasis on reproducible, end-to-end systems that bridge academic research and engineering practice.
 
 ---
 
 ## Technical Skills
 
 **Machine Learning & AI**
-Deep Reinforcement Learning · DQN · CNN · LSTM · RNN · SVM · Random Forest · BERTopic · Supervised Learning · Reward Regression · scikit-learn · PyTorch · Stable-Baselines3 · sentence-transformers
+Deep Reinforcement Learning · DQN · CNN · LSTM · LSTM Autoencoder · RNN · SVM · Random Forest · BERTopic · Supervised Learning · Reward Regression · scikit-learn · PyTorch · Stable-Baselines3 · sentence-transformers
+
+**MLOps & Production ML**
+MLflow · Apache Airflow · Evidently AI · Docker · FastAPI · Model Serving · Experiment Tracking · Drift Monitoring · CI/CD · Feature Stores
+
+**Streaming & Data Engineering**
+Apache Kafka · Apache Spark Structured Streaming · DuckDB · dbt · Real-Time Pipelines · Sliding Window Features · Confluent Cloud
 
 **NLP & Text Analytics**
 BERTopic · VADER Sentiment Analysis · spaCy · NLTK · Topic Modeling · Qualitative Coding · UMAP · HDBSCAN
@@ -51,6 +57,7 @@ Python · Scala · SQL · Git · Jupyter · Google Colab · Microsoft Azure · A
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [**Real-Time Anomaly Detection MLOps Pipeline**](https://github.com/nabeegh-khan/real-time-anomaly-mlops) | End-to-end streaming ML pipeline on the Numenta Anomaly Benchmark (NAB): Kafka ingestion → Spark Structured Streaming → DuckDB feature store → LSTM autoencoder training → FastAPI serving → Airflow orchestration → Evidently AI drift monitoring. 270,723 sliding windows across 38 time-series; ROC-AUC 0.64; 0/7 features drifted between train and test distributions. | PyTorch · Kafka · Spark · MLflow · FastAPI · Airflow · Evidently AI · DuckDB |
 | [**DeepSense 6G Beam Prediction — CNN, LSTM, RNN, SVM, RF & DQN**](https://github.com/nabeegh-khan/deepsense-6g-beam-prediction) | End-to-end mmWave beam prediction on 112,189 real-world V2V measurements (Scenarios 36–39, 60 GHz). Random Forest achieved 22.6% Top-1 / 43.9% Top-3 accuracy — 14.2x above random baseline — outperforming all deep learning models. DQN analysis identified feature compression as the key RL bottleneck for high-cardinality beam selection. | PyTorch · scikit-learn · DeepSense 6G · Gymnasium |
 | [**6G Massive MIMO Resource Allocation — DQN vs Supervised Learning**](https://github.com/nabeegh-khan/6g-mimo-resource-allocation) | DQN vs supervised learning for dynamic power allocation in a 7-cell, 70-user Massive MIMO environment. 4.4x reward improvement over random baseline; CNN and RNN matched DQN controller performance via reward regression — demonstrating supervised learning as a computationally efficient alternative to RL for 6G AI-RAN. | PyTorch · Stable-Baselines3 · Gymnasium |
 | [**AI in the Classroom — Mixed-Methods Survey + Reddit Analysis**](https://github.com/nabeegh-khan/ai-education-mixed-methods) | Convergent-parallel mixed-methods pipeline integrating two survey datasets (n=625) with 465 Reddit posts. Ordinal regression identified Attitude Toward Use as dominant predictor of AI adoption (OR=8.32, p<0.001). BERTopic + VADER surfaced a utility paradox — surveys show 7.44/10 utility ratings while AI writing tools discourse scored lowest sentiment (0.155). | BERTopic · VADER · spaCy · statsmodels · Reddit API |
@@ -63,6 +70,7 @@ Python · Scala · SQL · Git · Jupyter · Google Colab · Microsoft Azure · A
 
 ## Currently
 
-- 📡 Building and publishing reproducible ML pipelines across wireless communications and AI research domains — latest: production RAG system for querying 3GPP 5G/6G specifications with RAGAS evaluation
+- 🔧 Building production MLOps pipelines — latest: real-time anomaly detection on NAB with Kafka, Spark, LSTM autoencoder, FastAPI, Airflow, and Evidently AI
+- 📡 Publishing reproducible ML pipelines across wireless communications and AI research domains
 - 🔬 Research Analyst at ISTEP, University of Toronto (2025) — co-authored GenAI adoption study (n=124), mixed-methods analysis, UTERC 2025 poster presentation
 - 🎓 MEng Candidate, Electrical & Computer Engineering, University of Toronto — graduating December 2026
