@@ -19,36 +19,47 @@ I build end-to-end machine learning and data analytics pipelines at the intersec
 ## Technical Skills
 
 **Machine Learning & AI**
+
 Deep Reinforcement Learning · DQN · CNN · LSTM · LSTM Autoencoder · RNN · SVM · Random Forest · BERTopic · Supervised Learning · Reward Regression · scikit-learn · PyTorch · Stable-Baselines3 · sentence-transformers
 
 **MLOps & Production ML**
+
 MLflow · Apache Airflow · Evidently AI · Docker · FastAPI · Model Serving · Experiment Tracking · Drift Monitoring · CI/CD · Feature Stores
 
 **Streaming & Data Engineering**
+
 Apache Kafka · Apache Spark Structured Streaming · DuckDB · dbt · Real-Time Pipelines · Sliding Window Features · Confluent Cloud
 
 **NLP & Text Analytics**
+
 BERTopic · VADER Sentiment Analysis · spaCy · NLTK · Topic Modeling · Qualitative Coding · UMAP · HDBSCAN
 
 **Retrieval-Augmented Generation & LLM Engineering**
+
 LangChain · LangChain LCEL · ChromaDB · OpenAI Embeddings · GPT-4o-mini · RAG Pipelines · Vector Databases · FastAPI · Streamlit · RAGAS Evaluation · LangSmith · Prompt Engineering
 
 **Data Analytics & Statistics**
+
 Bibliometric Analysis · Chi-Square · ANOVA · Ordinal Logistic Regression · Cronbach's Alpha · Mann-Whitney U · OLS Regression · Time Series Forecasting · Feature Engineering · pandas · NumPy · scipy · statsmodels
 
 **Big Data & Cloud Engineering**
+
 Apache Spark (RDD & DataFrame APIs) · Spark SQL · Scala · Databricks · Microsoft Azure Synapse Analytics · Azure Data Lake · Hadoop Ecosystem · NoSQL Databases (MongoDB · Cassandra)
 
 **API Integration & Data Collection**
+
 REST API pipelines · OpenAlex API · Semantic Scholar API · Reddit .json endpoints · Pagination & Rate Limiting
 
 **Wireless & Communications**
+
 mmWave Beam Prediction · Beamforming Codebook Optimization · V2V Communications · Massive MIMO · 6G AI-RAN · Power Allocation · Spectral Efficiency · Gymnasium Environments · DeepSense 6G
 
 **Visualization & Reporting**
+
 Matplotlib · Seaborn · Plotly (interactive) · Tableau · Power BI · Publication-quality figures (300 DPI)
 
 **Tools & Platforms**
+
 Python · Scala · SQL · Git · Jupyter · Google Colab · Microsoft Azure · AWS · Databricks
 
 ---
