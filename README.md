@@ -10,9 +10,9 @@
 
 ## What I Work On
 
-I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans deep reinforcement learning for 6G network optimization, real-world mmWave beam prediction on live V2V measurements, production RAG systems for technical document retrieval, real-time streaming ML pipelines with full MLOps infrastructure, transformer-based NLP for bibliometric analysis, mixed-methods research combining survey statistics with large-scale text analysis, and cloud-based big data engineering on Apache Spark and Microsoft Azure.
+I build end-to-end machine learning and data analytics pipelines at the intersection of AI, wireless communications, and research methods. My portfolio spans foundation model fine-tuning with LoRA for scenario-adaptive 6G beam prediction, deep reinforcement learning for network optimization, real-world mmWave beam prediction on live V2V measurements, production RAG systems for technical document retrieval, real-time streaming ML pipelines with full MLOps infrastructure, transformer-based NLP for bibliometric analysis, mixed-methods research combining survey statistics with large-scale text analysis, and cloud-based big data engineering on Apache Spark and Microsoft Azure.
 
-**Current focus:** applying rigorous ML methodology across domains — from real-world mmWave beam management and LLM-powered standards retrieval to production MLOps pipelines and NLP-driven research synthesis — with an emphasis on reproducible, end-to-end systems that bridge academic research and engineering practice.
+**Current focus:** parameter-efficient foundation model adaptation for 6G wireless systems, production MLOps pipelines, and LLM-powered standards retrieval — with an emphasis on reproducible, end-to-end systems that bridge academic research and engineering practice.
 
 ---
 
@@ -21,6 +21,10 @@ I build end-to-end machine learning and data analytics pipelines at the intersec
 **Machine Learning & AI**
 
 Deep Reinforcement Learning · DQN · CNN · LSTM · LSTM Autoencoder · RNN · SVM · Random Forest · BERTopic · Supervised Learning · Reward Regression · scikit-learn · PyTorch · Stable-Baselines3 · sentence-transformers
+
+**Foundation Models & Transfer Learning**
+
+LoRA/PEFT · HuggingFace Transformers · Large Wireless Model (LWM) · ONNX Runtime · INT8 Quantization · Weights & Biases (W&B) · DeepMIMOv3 · Transfer Learning · Rank Ablation · Model Compression
 
 **MLOps & Production ML**
 
@@ -68,20 +72,21 @@ Python · Scala · SQL · Git · Jupyter · Google Colab · Microsoft Azure · A
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [**LWM-LoRA: Scenario-Adaptive mmWave Beam Prediction**](https://github.com/nabeegh-khan/6g-lwm-beam-prediction) | LoRA fine-tuning of the Large Wireless Model (LWM v1.1, 2.47M-param Transformer) for 64-beam mmWave prediction across 3 DeepMIMO city scenarios (12,658 samples). Custom LoRA injection into 49 attention layers (4.82% trainable params). Rank ablation r∈{2,4,8,16}; r=4 optimal at 76.8% top-1 accuracy (+7.4% vs baseline). Cross-scenario transfer with 20% target data matches full fine-tuning within 0.3%. ONNX INT8 deployment: 5.51× latency reduction, 69.5% size reduction. | PyTorch · HuggingFace · LoRA/PEFT · DeepMIMOv3 · ONNX Runtime · W&B |
 | [**Real-Time Anomaly Detection MLOps Pipeline**](https://github.com/nabeegh-khan/real-time-anomaly-mlops) | End-to-end streaming ML pipeline on the Numenta Anomaly Benchmark (NAB): Kafka ingestion → Spark Structured Streaming → DuckDB feature store → LSTM autoencoder training → FastAPI serving → Airflow orchestration → Evidently AI drift monitoring. 270,723 sliding windows across 38 time-series; ROC-AUC 0.64; 0/7 features drifted between train and test distributions. | PyTorch · Kafka · Spark · MLflow · FastAPI · Airflow · Evidently AI · DuckDB |
+| [**3GPP Specification Assistant — Production RAG System**](https://github.com/nabeegh-khan/3gpp-rag) | End-to-end RAG system for querying 3GPP 5G/6G technical specifications using natural language. Indexes 14 Release 18/19 specs (4,493 pages, 18,187 chunks) with OpenAI embeddings and ChromaDB. Evaluated with RAGAS: faithfulness 0.675, context recall 0.750. Served via FastAPI backend and Streamlit chat interface with LangSmith tracing. | LangChain · ChromaDB · GPT-4o-mini · FastAPI · Streamlit · RAGAS |
 | [**DeepSense 6G Beam Prediction — CNN, LSTM, RNN, SVM, RF & DQN**](https://github.com/nabeegh-khan/deepsense-6g-beam-prediction) | End-to-end mmWave beam prediction on 112,189 real-world V2V measurements (Scenarios 36–39, 60 GHz). Random Forest achieved 22.6% Top-1 / 43.9% Top-3 accuracy — 14.2x above random baseline — outperforming all deep learning models. DQN analysis identified feature compression as the key RL bottleneck for high-cardinality beam selection. | PyTorch · scikit-learn · DeepSense 6G · Gymnasium |
 | [**6G Massive MIMO Resource Allocation — DQN vs Supervised Learning**](https://github.com/nabeegh-khan/6g-mimo-resource-allocation) | DQN vs supervised learning for dynamic power allocation in a 7-cell, 70-user Massive MIMO environment. 4.4x reward improvement over random baseline; CNN and RNN matched DQN controller performance via reward regression — demonstrating supervised learning as a computationally efficient alternative to RL for 6G AI-RAN. | PyTorch · Stable-Baselines3 · Gymnasium |
-| [**AI in the Classroom — Mixed-Methods Survey + Reddit Analysis**](https://github.com/nabeegh-khan/ai-education-mixed-methods) | Convergent-parallel mixed-methods pipeline integrating two survey datasets (n=625) with 465 Reddit posts. Ordinal regression identified Attitude Toward Use as dominant predictor of AI adoption (OR=8.32, p<0.001). BERTopic + VADER surfaced a utility paradox — surveys show 7.44/10 utility ratings while AI writing tools discourse scored lowest sentiment (0.155). | BERTopic · VADER · spaCy · statsmodels · Reddit API |
 | [**AI-in-Education Bibliometric + NLP Analysis**](https://github.com/nabeegh-khan/ai-education-bibliometric-analysis) | Dual-API pipeline collecting 4,403 papers via OpenAlex & Semantic Scholar. BERTopic discovered 27 research clusters. Chi-square confirmed significant post-ChatGPT topic shift (χ²=323.87, p<0.0001). Exponential publication growth modeled at 30.7%/year (R²=0.844). | BERTopic · VADER · OpenAlex API · pandas · scipy |
+| [**AI in the Classroom — Mixed-Methods Survey + Reddit Analysis**](https://github.com/nabeegh-khan/ai-education-mixed-methods) | Convergent-parallel mixed-methods pipeline integrating two survey datasets (n=625) with 465 Reddit posts. Ordinal regression identified Attitude Toward Use as dominant predictor of AI adoption (OR=8.32, p<0.001). BERTopic + VADER surfaced a utility paradox — surveys show 7.44/10 utility ratings while AI writing tools discourse scored lowest sentiment (0.155). | BERTopic · VADER · spaCy · statsmodels · Reddit API |
 | [**Ontario Electricity Demand Forecasting**](https://github.com/nabeegh-khan/Ontario-Electricity-Demand-Forecasting) | End-to-end ML pipeline on 109,000+ hourly records from 4 integrated data sources (IESO, Environment Canada, NASA POWER). 13 engineered features including temporal lags, degree days, and cyclical encodings. 50.7% RMSE improvement over baseline (R²=0.9928) using 3-layer neural network across 5 model comparison. | scikit-learn · XGBoost · PyTorch · pandas |
 | [**Big Data Analytics — Apache Spark & Azure Synapse**](https://github.com/nabeegh-khan/big-data-analytics-spark-azure) | Distributed data processing using Apache Spark RDD and DataFrame APIs (Scala/Databricks) and cloud-scale SQL analytics on Microsoft Azure Synapse Analytics. Covers multi-file text corpus processing, retail transaction analysis across daily partitioned CSVs, and bike rental analytics with multi-table joins on a 24MB real-world dataset. | Apache Spark · Scala · Databricks · Azure Synapse · T-SQL |
-| [**3GPP Specification Assistant — Production RAG System**](https://github.com/nabeegh-khan/3gpp-rag) | End-to-end RAG system for querying 3GPP 5G/6G technical specifications using natural language. Indexes 14 Release 18/19 specs (4,493 pages, 18,187 chunks) with OpenAI embeddings and ChromaDB. Evaluated with RAGAS: faithfulness 0.675, context recall 0.750. Served via FastAPI backend and Streamlit chat interface with LangSmith tracing. | LangChain · ChromaDB · GPT-4o-mini · FastAPI · Streamlit · RAGAS |
 
 ---
 
 ## Currently
 
-- 🔧 Building production MLOps pipelines — latest: real-time anomaly detection on NAB with Kafka, Spark, LSTM autoencoder, FastAPI, Airflow, and Evidently AI
+- 🔧 Latest build: LoRA-adapted Large Wireless Model for scenario-adaptive 6G beam prediction — custom LoRA injection, rank ablation, cross-scenario transfer, ONNX edge deployment
 - 📡 Publishing reproducible ML pipelines across wireless communications and AI research domains
 - 🔬 Research Analyst at ISTEP, University of Toronto (2025) — co-authored GenAI adoption study (n=124), mixed-methods analysis, UTERC 2025 poster presentation
 - 🎓 MEng Candidate, Electrical & Computer Engineering, University of Toronto — graduating December 2026
