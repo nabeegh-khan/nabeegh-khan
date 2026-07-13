@@ -2,7 +2,7 @@
 
 MEng candidate in Electrical & Computer Engineering at the University of Toronto, graduating December 2026, with an emphasis in Data Analytics and Machine Learning. P.Eng, PMP, and around six years of professional engineering experience.
 
-I work on machine learning for wireless communications and on end-to-end ML systems, alongside research work as a graduate research assistant. Recent projects cover parameter-efficient fine-tuning of a wireless foundation model for 6G beam prediction, reinforcement and supervised learning for MIMO power allocation, beam prediction on real vehicle-to-vehicle measurements, retrieval-augmented QA over 3GPP standards, and a streaming MLOps pipeline. I try to build things that are reproducible and reported honestly, including the results that came out modest or negative.
+I work on machine learning for wireless communications, on retrieval-augmented and NLP systems, and on end-to-end ML pipelines, alongside engineering-education research as a graduate research assistant. Recent projects span parameter-efficient fine-tuning of a wireless foundation model, reinforcement and supervised learning for MIMO power allocation, beam prediction on real vehicle-to-vehicle measurements, a retrieval-augmented QA system over 3GPP standards with source citations, mixed-methods and bibliometric studies of generative AI in education, and a streaming MLOps pipeline. I try to build things that are reproducible and reported honestly, including the results that came out modest or negative.
 
 ## Selected projects
 
