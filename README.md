@@ -1,19 +1,8 @@
 # Nabeegh Khan
 
-Licensed Professional Engineer (P.Eng) specializing in machine learning. MEng candidate in
-Electrical & Computer Engineering at the University of Toronto, graduating December 2026,
-with an emphasis in Data Analytics and Machine Learning. P.Eng, PMP, and five years of
-professional engineering experience.
+Licensed Professional Engineer (P.Eng) specializing in machine learning. MEng candidate in Electrical & Computer Engineering at the University of Toronto, graduating December 2026, with an emphasis in Data Analytics and Machine Learning. P.Eng, PMP, and five years of professional engineering experience.
 
-I work on retrieval-augmented and NLP systems, foundation-model fine-tuning and compression,
-end-to-end ML pipelines, and machine learning for wireless communications, alongside
-engineering-education research as a graduate research assistant. Recent projects span a
-retrieval-augmented QA system over 3GPP standards with source citations, parameter-efficient
-fine-tuning of a wireless foundation model, a streaming MLOps pipeline, reinforcement and
-supervised learning for MIMO power allocation, beam prediction on real vehicle-to-vehicle
-measurements, and mixed-methods and bibliometric studies of generative AI in education.
-I try to build things that are reproducible and reported honestly, including the results
-that came out modest or negative.
+I work on retrieval-augmented and NLP systems, foundation-model fine-tuning and compression, end-to-end ML pipelines, and machine learning for wireless communications, alongside engineering-education research as a graduate research assistant. Recent projects span a retrieval-augmented QA system over 3GPP standards with source citations, parameter-efficient fine-tuning of a wireless foundation model, a streaming MLOps pipeline, reinforcement and supervised learning for MIMO power allocation, beam prediction on real vehicle-to-vehicle measurements, and mixed-methods and bibliometric studies of generative AI in education. I try to build things that are reproducible and reported honestly, including the results that came out modest or negative.
 
 ## Selected projects
 
@@ -30,29 +19,29 @@ that came out modest or negative.
 | [Big Data Analytics: Spark & Azure Synapse](https://github.com/nabeegh-khan/big-data-analytics-spark-azure) | Distributed processing with Spark (RDD and DataFrame APIs, Scala on Databricks) and cloud SQL analytics on Azure Synapse over multi-file corpora and partitioned retail data. | Apache Spark, Scala, Databricks, Azure Synapse, T-SQL |
 
 ## Skills
+**Machine learning:** PyTorch, scikit-learn, XGBoost, deep learning, CNN/LSTM/RNN, reinforcement learning (DQN, Stable-Baselines3, Gymnasium), Random Forest, SVM, feature engineering
 
-**Machine learning:** PyTorch, scikit-learn, deep learning, CNN/LSTM/RNN, reinforcement learning (DQN, Stable-Baselines3), Random Forest, SVM, feature engineering
-
-**Foundation models & transfer learning:** HuggingFace Transformers, LoRA/PEFT, Large Wireless Model, transfer learning, ONNX Runtime, INT8 quantization, Weights & Biases
-
-**MLOps & serving:** MLflow, Airflow, Evidently, Docker, FastAPI, model serving, drift monitoring
-
-**Streaming & data engineering:** Kafka, Spark Structured Streaming, DuckDB, dbt, Databricks, Azure Synapse
-
-**LLM & RAG:** LangChain, ChromaDB, OpenAI embeddings, GPT-4o-mini, RAGAS, LangSmith, Streamlit
+**LLM & RAG:** LangChain, ChromaDB, OpenAI embeddings, GPT-4o-mini, RAGAS, LangSmith
 
 **NLP & text analytics:** BERTopic, VADER, spaCy, topic modeling, qualitative coding
 
-**Statistics & research methods:** chi-square, ANOVA, Mann-Whitney U, ordinal logistic regression, mixed-methods research, hypothesis testing, statsmodels, scipy
+**Foundation models & transfer learning:** HuggingFace Transformers, LoRA/PEFT, Large Wireless Model (LWM), ONNX Runtime, INT8 quantization, Weights & Biases
 
-**Wireless:** mmWave beam prediction, beamforming, Massive MIMO, V2V, DeepMIMOv3, DeepSense 6G, Gymnasium
+**MLOps & serving:** MLflow, Airflow, Evidently, Docker, FastAPI, Streamlit, model serving, drift monitoring
+
+**Streaming & data engineering:** Kafka, Spark Structured Streaming, DuckDB, dbt, Databricks, Azure Synapse
+
+**Statistics & research methods:** chi-square, ANOVA, Mann-Whitney U, ordinal logistic regression, equivalence testing, mixed-methods research, hypothesis testing, statsmodels, scipy
+
+**Domain experience (wireless):** mmWave beam prediction, beamforming, massive MIMO, V2V communications, DeepMIMO and DeepSense 6G datasets
 
 **Languages & tools:** Python, Scala, SQL, Git, Jupyter, pandas, NumPy, Matplotlib, Seaborn, Plotly
 
 ## Now
 
-- Research Assistant at ISTEP, University of Toronto, currently and in summer 2025. Quantitative and qualitative analysis of engineering-education survey data using chi-square, Mann-Whitney U, and mixed-methods approaches; co-authored and presented a poster at UTERC 2025.
-- Finishing my MEng in Electrical & Computer Engineering, graduating December 2026.
+* Finishing my MEng in Electrical & Computer Engineering at the University of Toronto, graduating December 2026. Available for full-time roles from January 2027.
+* Based in Cambridge, Ontario. Open to roles in the Waterloo Region, the Greater Toronto Area, and remote across Canada.
+* Research Assistant at ISTEP, University of Toronto (summers 2025 and 2026). Quantitative and qualitative analysis of engineering-education survey data; co-authored a research brief and presented a poster at UTERC 2025.
 
 ## A note on tooling
 
