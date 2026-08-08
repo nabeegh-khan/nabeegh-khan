@@ -1,6 +1,6 @@
 # Nabeegh Khan
 
-Licensed Professional Engineer (P.Eng) specializing in machine learning. MEng candidate in Electrical & Computer Engineering at the University of Toronto, graduating December 2026, with an emphasis in Data Analytics and Machine Learning. P.Eng, PMP, and five years of professional engineering experience.
+Licensed Professional Engineer (P.Eng) specializing in machine learning. MEng candidate in Electrical & Computer Engineering at the University of Toronto, graduating December 2026, with an emphasis in Data Analytics and Machine Learning. P.Eng, PMP, and six years of professional engineering experience.
 
 I work on retrieval-augmented and NLP systems, foundation-model fine-tuning and compression, end-to-end ML pipelines, and machine learning for wireless communications, alongside engineering-education research as a graduate research assistant. Recent projects span a retrieval-augmented QA system over 3GPP standards with source citations, parameter-efficient fine-tuning of a wireless foundation model, a streaming MLOps pipeline, reinforcement and supervised learning for MIMO power allocation, beam prediction on real vehicle-to-vehicle measurements, and mixed-methods and bibliometric studies of generative AI in education. I try to build things that are reproducible and reported honestly, including the results that came out modest or negative.
 
@@ -41,8 +41,12 @@ I work on retrieval-augmented and NLP systems, foundation-model fine-tuning and 
 
 * Finishing my MEng in Electrical & Computer Engineering at the University of Toronto, graduating December 2026. Available for full-time roles from January 2027.
 * Based in Cambridge, Ontario. Open to roles in the Waterloo Region, the Greater Toronto Area, and remote across Canada.
-* Research Assistant at ISTEP, University of Toronto (summers 2025 and 2026). Quantitative and qualitative analysis of engineering-education survey data; co-authored a research brief and presented a poster at UTERC 2025.
+* Research Assistant at ISTEP, University of Toronto (summers 2025 and 2026). Quantitative and qualitative analysis of engineering-education survey data; first author on a poster presented at UTERC 2025, and co-authoring a research brief.
 
 ## A note on tooling
 
 These projects were built with significant AI-assisted coding; I used Claude (Anthropic) as a coding assistant. I scoped the questions, chose the datasets and methods, and ran, validated, and interpreted the results. Each repository documents this in its README.
+
+## Contact
+
+Reach me at nabeegh.as.khan@gmail.com.
