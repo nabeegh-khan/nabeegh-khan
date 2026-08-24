@@ -42,7 +42,11 @@ I work on retrieval-augmented and NLP systems, foundation-model fine-tuning and 
 
 * Finishing my MEng in Electrical & Computer Engineering at the University of Toronto, graduating April 2027. Open to part-time research and analysis work through the coming year, and full-time roles from May 2027.
 * Based in Cambridge, Ontario. Open to roles in the Waterloo Region, the Greater Toronto Area, and remote across Canada.
-* Research Assistant at ISTEP, University of Toronto (summers 2025 and 2026). Quantitative and qualitative analysis of engineering-education survey data. Presented a poster at UTERC 2025, and gave a podium presentation at UTERC 2026 on whether an undeclared-entry pathway supported disciplinary exploration.
+
+## Recent
+
+* Research Assistant at ISTEP, University of Toronto, May to August 2025 and May to August 2026. Quantitative and qualitative analysis of engineering-education survey data.
+* Gave a podium presentation at UTERC 2026 on whether an undeclared-entry pathway supported disciplinary exploration, and presented a poster at UTERC 2025 on student adoption of generative AI.
 
 ## A note on tooling
 
