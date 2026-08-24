@@ -40,7 +40,7 @@ I work on retrieval-augmented and NLP systems, foundation-model fine-tuning and 
 
 ## Now
 
-* Finishing my MEng in Electrical & Computer Engineering at the University of Toronto, graduating April 2027. Open to part-time research and analysis work through the coming year, and full-time roles from May 2027.
+* MEng student in Electrical & Computer Engineering at the University of Toronto, graduating April 2027. Open to part-time research and analysis work through the coming year, and full-time roles from May 2027.
 * Based in Cambridge, Ontario. Open to roles in the Waterloo Region, the Greater Toronto Area, and remote across Canada.
 
 ## Recent
