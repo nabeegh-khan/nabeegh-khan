@@ -30,7 +30,7 @@ My work sits between applied NLP and the research methods that make a result mea
 
 **Research Assistant, ISTEP, University of Toronto — May to August 2026.** Quantitative analysis of roughly 4,700 responses across three Faculty surveys under Dr. Qin Liu: chi-square with permutation p-values, Fisher's exact, Mann-Whitney U, two one-sided tests for equivalence, logistic regression and k-means, with Benjamini-Hochberg and Bonferroni corrections across 74 tests. Built a record linkage matching 723 students across two survey years by encrypted identifier. Conducted one semi-structured interview and co-led another under a Health Sciences REB protocol. Co-authored the research brief delivered to a Vice Dean and Deans of Undergraduate Studies.
 
-**Research Assistant, ISTEP, University of Toronto — May to August 2025.** Mixed-methods analysis of generative-AI adoption among 124 engineering students under Dr. Qin Liu: descriptive statistics, chi-square testing and demographic breakdowns, with inductive coding of over 1,000 open-ended responses verified against a deductive scheme and thematic analysis run through the OpenAI API.
+**Research Assistant, ISTEP, University of Toronto — May to August 2025.** Analysis of a 229-student generative-AI survey under Dr. Qin Liu, on the Students' User Experience with Generative AI instrument. Built the REDCap ingestion pipeline and cut the same data three ways for different partners: total respondents, engineering undergraduates at n=67, and undergraduates at n=79 against graduate students at n=28. Ran 46 breakdown tests across student status, degree level and disability using chi-square, Mann-Whitney U and Kruskal-Wallis with Cramér's V effect sizes and APA reporting. Hand-coded 637 open-ended responses across eight questions against consolidated codebooks, and built the AI-assisted pipeline those hand codes checked: TF-IDF and k-means clustering, then a two-round OpenAI protocol per cluster, which I established was not reproducible because a fixed seed still produced materially different codebooks between runs. Scored sentiment with TextBlob using a per-student aggregation rule that preserved negative tone, and built the Q-methodology concourse behind the interview study by coding 44 of 91 literature statements for sentiment, valence and theme.
 
 **Presentations.** Podium presentation at UTERC 2026 on whether an undeclared-entry pathway supported disciplinary exploration; poster at UTERC 2025 on student adoption of generative AI. Both with Dr. Qin Liu.
 
@@ -44,13 +44,15 @@ Graduate coursework at the University of Ottawa, all of which predates any use o
 
 ## Skills
 
-**NLP & retrieval:** LangChain, ChromaDB, OpenAI embeddings, RAGAS retrieval evaluation, LangSmith, BERTopic, VADER, spaCy, NLTK, TF-IDF, topic modeling, qualitative coding, content analysis
+**NLP & retrieval:** LangChain, ChromaDB, OpenAI embeddings, RAGAS retrieval evaluation, LangSmith, BERTopic, sentiment analysis with VADER and TextBlob, spaCy and PhraseMatcher, NLTK, TF-IDF, k-means, topic modeling
 
 **Foundation models:** HuggingFace Transformers, LoRA/PEFT, ONNX Runtime, INT8 quantization, Weights & Biases
 
 **Machine learning:** PyTorch, scikit-learn, XGBoost, CNN/LSTM/RNN, Random Forest, SVM, reinforcement learning (DQN, Stable-Baselines3, Gymnasium), feature engineering
 
-**Statistics & research methods:** chi-square with permutation p-values, Mann-Whitney U, Fisher's exact, ordinal and binary logistic regression, two one-sided tests for equivalence, k-means, Benjamini-Hochberg and Bonferroni correction, effect sizes, mixed-methods research, semi-structured interviews under REB protocol, statsmodels, scipy
+**Statistics & research methods:** chi-square test of independence with permutation p-values, Fisher's exact per option, Mann-Whitney U, Kruskal-Wallis, ordinal and binary logistic regression, two one-sided tests for equivalence, Haberman post-hoc residuals, Benjamini-Hochberg and Bonferroni correction, Cramér's V and rank-biserial effect sizes, APA-style reporting, statsmodels, scipy
+
+**Qualitative & survey methods:** hand coding against a codebook, inductive codebook development across rounds, model-assisted coding validated against human assignment, Q-methodology concourse construction, semi-structured interviews under REB protocol, REDCap survey data, select-all-that-apply handling, record linkage, de-identification, TCPS 2: CORE-2022
 
 **Data collection & linkage:** REST API harvesting with cursor pagination and rate limiting (OpenAlex, Semantic Scholar, NewsAPI, YouTube Data API, Reddit JSON), text extraction from PDFs (PyPDF, recursive character splitting), record linkage, schema and value-code reconciliation, deduplication, de-identification
 
