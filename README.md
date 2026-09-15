@@ -9,7 +9,9 @@ My work sits between applied NLP and the research methods that make a result mea
 ## Now
 
 * **Research Volunteer, Artificial Intelligence for Mental Health (AI-M) Program**, University of Toronto, with Unity Health Toronto and University Health Network, since September 2026. Retrieval-augmented extraction of clinical scale items (PHQ-8 depression, PCL post-traumatic stress) from interview transcripts on the public Distress Analysis Interview Corpus, Wizard of Oz. The design answers an item only where the transcript carries evidence and abstains otherwise, so coverage is reported alongside accuracy rather than a single score.
-* MEng student at the University of Toronto, graduating April 2027. Open to part-time research and analysis work through the coming year, and full-time roles from May 2027.
+* **MEng Research Project (ECE2500Y)**, University of Toronto, September 2026 to April 2027, supervised by Dr. Salma Emara. Conversational assessment in computing education: an agent that generates questions grounded in a student's own submitted code and returns formative feedback on where understanding is strong and where it is thin, rather than a grade.
+* **Research Assistant, Institute for Studies in Transdisciplinary Engineering Education and Practice (ISTEP)**, University of Toronto, since September 2026. Continuing engineering education research with Dr. Qin Liu.
+* MEng student at the University of Toronto, graduating April 2027. Open to part-time research and analysis work through the coming year, and full-time applied machine learning and software engineering roles from May 2027.
 * Based in Cambridge, Ontario. Open to roles in the Waterloo Region, the Greater Toronto Area, and remote across Canada.
 
 ## Selected projects
