@@ -4,15 +4,15 @@ Master of Engineering (MEng) student in Electrical & Computer Engineering at the
 
 My work sits between applied NLP and the research methods that make a result mean something: retrieval and its evaluation, parameter-efficient fine-tuning and compression, and the annotation, statistics and record linkage underneath. Alongside that, engineering-education research as a graduate research assistant, and clinical NLP as a research volunteer. I try to build things that are reproducible and reported honestly, including the results that came out modest or negative.
 
-[ORCID](https://orcid.org/0009-0007-3142-7372) · nabeegh.as.khan@gmail.com · Cambridge, Ontario
+**Open to full-time roles from May 2027** in applied machine learning, research engineering, and software and data engineering.
+
+[ORCID](https://orcid.org/0009-0007-3142-7372) · nabeegh.as.khan@gmail.com · Cambridge, Ontario · Canadian and UK citizen
 
 ## Now
 
 * **Research Volunteer, Artificial Intelligence for Mental Health (AI-M) Program**, University of Toronto, with Unity Health Toronto and University Health Network, since September 2026. Retrieval-augmented extraction of clinical scale items (PHQ-8 depression, PCL-C post-traumatic stress) from interview transcripts on the public Distress Analysis Interview Corpus, Wizard of Oz. The design answers an item only where the transcript carries evidence and abstains otherwise, so coverage is reported alongside accuracy rather than a single score. Part-time on a three-person team, working in an integrated codebase through cross-reviewed pull requests, with publication as the intended output.
 * **MEng Project (ECE2500Y)**, University of Toronto, September 2026 to April 2027, supervised by Dr. Salma Emara. Conversational assessment in computing education: an agent that generates questions grounded in a student's own submitted code and returns formative feedback on where understanding is strong and where it is thin, rather than a grade. Delivered across three staged design reviews with unit testing at each, a browser front end, and a Research Ethics Board protocol for voluntary student use, with a conference paper as the final output.
 * **Research Assistant, Institute for Studies in Transdisciplinary Engineering Education and Practice (ISTEP)**, University of Toronto, since September 2026. Preparing a peer-reviewed manuscript from a Faculty-wide survey analysis of roughly 4,700 responses with Dr. Qin Liu, framing the findings through transition theory and a deficiency model, extending the analysis to earlier survey waves, and comparing common first-year engineering curricula across institutions.
-* Open to full-time roles from May 2027 in applied machine learning, research engineering, and software and data engineering.
-* Based in Cambridge, Ontario. Canadian and UK citizen.
 
 ## Selected projects
 
