@@ -1,33 +1,35 @@
 # Nabeegh Khan
 
-Applied AI and full-stack engineering. Master of Engineering student in Electrical & Computer Engineering at the University of Toronto, graduating April 2027, after six years of engineering design and verification.
+Engineer building applied AI and full-stack software. I'm completing a Master of Engineering in Electrical & Computer Engineering at the University of Toronto in April 2027, after nearly six years on cross-functional client teams, four of them in project engineering and design.
 
-This year I'm building, solo, an AI-powered conversational agent that assesses how well students understand the code they submitted and gives them feedback: backend, web front end and integration through three design reviews this fall, then a field test with students in January 2027. I also run the GitHub workflow on a clinical NLP project, a retrieval layer that scores questionnaire items from interview transcripts only where the transcript carries evidence and abstains otherwise. This fall adds two graduate course projects, a full-stack TypeScript web application and a stateful cloud-native application, alongside engineering education research at ISTEP.
+### Current work
 
-I explain technical work to people outside the field, through conference talks, research briefs for Faculty leadership and, before that, technical specifications for client decisions. I work in teams through issues, code review and pull requests.
+**AI for Mental Health (AI-M), University of Toronto.** Building a two-stage LLM pipeline that extracts evidence from clinical interview transcripts and scores depression (PHQ-8) and PTSD (PCL-C) questionnaire items, toward a co-authored journal paper. I lead the team's repository: pull requests to a protected main branch and 54 unit tests in GitHub Actions CI. The repository is private.
 
-**Open to full-time roles from May 2027** in applied AI and machine learning engineering, full-stack and software engineering, and data engineering.
+**MEng project, with Dr. Salma Emara.** An AI tool for programming education. The literature review of 22 papers is complete and the design proposal is in progress.
+
+**Graduate course projects, fall 2026.** A full-stack TypeScript web application and a stateful cloud-native application on DigitalOcean, each built with a team of four.
+
+**Engineering education research, ISTEP.** Survey analysis and papers for ASEE 2027 and CEEA 2027.
 
 ### Toolchain
 
-**Machine learning:** PyTorch, Hugging Face Transformers, PEFT and LoRA fine-tuning, scikit-learn, statsmodels, ONNX Runtime and INT8 quantization, sentence-transformer embeddings
+**Languages:** Python, JavaScript, Scala
 
-**Retrieval and LLM systems:** LangChain, ChromaDB, retrieval-augmented generation, semantic search, prompt engineering, BERTopic, spaCy, TF-IDF
+**Machine learning and LLMs:** PyTorch, Hugging Face Transformers, PEFT and LoRA fine-tuning, scikit-learn, ONNX export and INT8 quantization, OpenAI API, LangChain, ChromaDB, RAGAS, prompt engineering
 
-**Web and cloud (graduate coursework, fall 2026):** TypeScript, React, Next.js, Tailwind CSS, Node.js, Express, REST APIs, PostgreSQL, SQLite, Docker Compose, Kubernetes, DigitalOcean, Nginx
+**Web and cloud (graduate coursework):** Node.js, Express, REST APIs, TypeScript, React, Next.js, PostgreSQL, SQLite, Docker Compose, Nginx, DigitalOcean
 
-**Engineering practice:** Git, GitHub Issues and project boards, branch protection, pull-request review, GitHub Actions CI, pytest, Pydantic validation, PowerShell
+**Data and MLOps:** Kafka, Spark Structured Streaming, Spark SQL on Databricks, DuckDB and dbt, Airflow, MLflow, Evidently, Docker, FastAPI
 
-**Evaluation:** RAGAS faithfulness and context-recall scoring, prompt-order bias testing, calibration and abstention, failure-mode diagnosis, LangSmith tracing, model-assisted coding validated against human assignment
+**Engineering practice:** Git, GitHub Actions CI, pytest, Jest, pull-request review, branch protection, Claude Code
 
-**Statistics:** chi-square with permutation p-values, Fisher's exact, Mann-Whitney U, Kruskal-Wallis, ordinal and binary logistic regression, two one-sided tests for equivalence, Haberman post-hoc residuals, Benjamini-Hochberg and Bonferroni correction, Cramer's V and rank-biserial effect sizes
-
-**Data and infrastructure:** Kafka, Spark Structured Streaming, DuckDB with dbt models and schema tests, Airflow, MLflow, Evidently drift monitoring, Docker, FastAPI, Databricks, Azure Synapse, Scala, SQL
-
-**Collection and linkage:** REST API harvesting with cursor pagination and rate limiting, PDF text extraction, record linkage, deduplication, schema reconciliation across mismatched sources
+**Statistics:** chi-square, Fisher's exact, Mann-Whitney U, logistic regression, equivalence testing, multiple-comparison correction
 
 ### A note on tooling
 
-Problem formulation, method selection, experimental design and interpretation in these projects are my own. An AI coding assistant wrote much of the implementation under my direction, and I validated every result against source. Each repository documents this.
+Problem formulation, method selection, experimental design and interpretation in these projects are my own. AI coding assistants wrote much of the implementation under my direction, and I validated every result against source. Each repository documents this.
 
-[LinkedIn](https://www.linkedin.com/in/nabeeghkhan/) · nabeegh.as.khan@gmail.com · Cambridge, Ontario · Canadian and UK citizen
+**Open to full-time roles from May 2027.**
+
+[LinkedIn](https://www.linkedin.com/in/nabeeghkhan/) · nabeegh.as.khan@gmail.com · Based in Cambridge, Ontario. Canadian and UK citizen.
