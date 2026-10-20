@@ -8,7 +8,7 @@ Engineer building applied AI and full-stack software, with personal projects in 
 
 **MEng project, with Dr. Salma Emara.** CAIRO, a multi-agent framework that questions students about C programs they wrote and gives feedback on their answers. The literature review of 30+ papers is complete, an ASEE 2027 work-in-progress abstract was submitted in October, and the design proposal is in progress.
 
-**Graduate course projects, fall 2026.** A full-stack TypeScript web application and a stateful cloud-native application on DigitalOcean, each built with a team of four.
+**Graduate course projects, fall 2026.** [FitnessCoach](https://github.com/harunm1/FitnessCoach), a full-stack TypeScript web application that recommends workout plans with an AI coaching agent, and [ContentCollab](https://github.com/nabeegh-khan/contentcollab), a stateful cloud-native application on DigitalOcean, each built with a team of four.
 
 **Engineering education research, ISTEP.** Survey analysis and an ASEE 2027 paper, with the abstract submitted in October.
 
