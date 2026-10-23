@@ -4,9 +4,9 @@ Engineer building applied AI and full-stack software, with personal projects in 
 
 ### Current work
 
-**AI for Mental Health (AI-M), University of Toronto.** Building a two-stage LLM pipeline that extracts evidence from clinical interview transcripts and scores questionnaire items: depression (PHQ-8) first, then PTSD (PCL-C) and anxiety (GAD-7), toward a co-authored journal paper. Four versioned, audited prompts raised held-out recall from 0.54 to 0.63 at 0.92 precision. I lead the repository for a three-person team: pull requests to a protected main branch under a mutual-review rule and 59 unit tests in GitHub Actions CI. The repository is private.
+**AI for Mental Health (AI-M), University of Toronto.** Building a two-stage LLM pipeline that extracts evidence from clinical interview transcripts and scores questionnaire items: depression (PHQ-8) first, then PTSD (PCL-C) and anxiety (GAD-7), toward a co-authored journal paper. Versioned, audited prompts raised held-out recall from 0.54 to 0.63 at 0.92 precision, and seven models were compared on recall, false positives and cost. Two raters audit sessions independently and report Cohen's kappa. I lead the repository for a three-person team: pull requests to a protected main branch under a mutual-review rule and 87 unit tests in GitHub Actions CI (64 merged, the rest in review). The repository is private.
 
-**MEng project, with Dr. Salma Emara.** CAIRO, a multi-agent framework that questions students about C programs they wrote and gives feedback on their answers. The literature review of 30+ papers is complete, an ASEE 2027 work-in-progress abstract was submitted in October, and the design proposal is in progress.
+**MEng project, with Dr. Salma Emara.** CAIRO, an AI agent that questions students about C programs they wrote and gives feedback on their answers. A sandboxed run of the student's code produces verified facts that ground the agent's questions and scoring. 36 papers read and noted, an ASEE 2027 work-in-progress abstract submitted, and the design accepted at the October design proposal; the build runs to December.
 
 **Graduate course projects, fall 2026.** [FitnessCoach](https://github.com/harunm1/FitnessCoach), a full-stack TypeScript web application that recommends workout plans with an AI coaching agent, and [ContentCollab](https://github.com/nabeegh-khan/contentcollab), a stateful cloud-native application on DigitalOcean, each built with a team of four.
 
@@ -18,11 +18,17 @@ Engineer building applied AI and full-stack software, with personal projects in 
 - [6g-lwm-beam-prediction](https://github.com/nabeegh-khan/6g-lwm-beam-prediction): LoRA fine-tuning of a wireless foundation model for 6G beam prediction, with ONNX export and INT8 quantization for edge inference.
 - [real-time-anomaly-mlops](https://github.com/nabeegh-khan/real-time-anomaly-mlops): streaming anomaly detection from Kafka through Spark to a dbt feature store, with MLflow experiment tracking and Evidently drift monitoring.
 
+### Earlier course projects
+
+- [Ontario-Electricity-Demand-Forecasting](https://github.com/nabeegh-khan/Ontario-Electricity-Demand-Forecasting): next-hour demand forecasting from 109,056 hourly records; five models compared, a three-layer neural network best (machine learning course, Fall 2025; I built the pipeline and models, teammates reviewed).
+- [cadusd-cot-feature-engineering](https://github.com/nabeegh-khan/cadusd-cot-feature-engineering): weekly CAD/USD features from CFTC Commitments of Traders and price data, with stationarity testing (AI in Finance course, Summer 2025; my part was the feature engineering).
+- [canada-innovation-policy-analysis](https://github.com/nabeegh-khan/canada-innovation-policy-analysis): NewsAPI and YouTube Data API collection with topic clustering, findings reports and policy visualisations (data science course, Winter 2025).
+
 ### Toolchain
 
 **Languages:** Python, JavaScript, Scala
 
-**Machine learning and LLMs:** PyTorch, Hugging Face Transformers, PEFT and LoRA fine-tuning, scikit-learn, ONNX export and INT8 quantization, OpenAI and OpenRouter APIs, RAG, LangChain, ChromaDB, multi-agent design, prompt engineering
+**Machine learning and LLMs:** PyTorch, Hugging Face Transformers, PEFT and LoRA fine-tuning, scikit-learn, XGBoost, ONNX export and INT8 quantization, OpenAI and OpenRouter APIs, RAG, LangChain, ChromaDB, multi-agent design, prompt engineering
 
 **LLM evaluation:** prompt and version management, offline evaluation against human-review audits, RAGAS, precision and recall, Cohen's kappa
 
@@ -32,7 +38,7 @@ Engineer building applied AI and full-stack software, with personal projects in 
 
 **Engineering practice:** Git, GitHub Actions CI, pytest, Jest, pull-request review, branch protection, Claude Code
 
-**Statistics:** chi-square, Fisher's exact, Mann-Whitney U, logistic regression, equivalence testing, multiple-comparison correction
+**Statistics:** chi-square, Fisher's exact, Mann-Whitney U, logistic regression, equivalence testing, ADF and KPSS stationarity tests, multiple-comparison correction
 
 ### A note on tooling
 
