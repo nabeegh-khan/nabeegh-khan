@@ -29,9 +29,9 @@ Before graduate school I spent nearly six years in engineering, including two ye
 
 **Machine learning and LLMs:** Python, PyTorch, Hugging Face Transformers, PEFT and LoRA, scikit-learn, pandas, OpenAI API, RAG, ChromaDB, RAGAS, ONNX
 
-**Data and MLOps:** Kafka, Spark, DuckDB, dbt, MLflow, FastAPI, Docker, Kubernetes
+**Data and MLOps:** Kafka, Spark, DuckDB, dbt, MLflow, FastAPI, Docker
 
-**Web (graduate coursework):** TypeScript, React, Next.js, Node.js, Express, PostgreSQL, Prisma
+**Web and cloud (graduate coursework):** TypeScript, React, Next.js, Node.js, Express, PostgreSQL, Prisma, Kubernetes, DigitalOcean
 
 **Engineering practice:** Git, GitHub Actions, pytest, Jest, pull-request review, Claude Code
 
