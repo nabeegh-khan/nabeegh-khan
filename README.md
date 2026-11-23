@@ -1,13 +1,14 @@
 # Nabeegh Khan
 
-I build and evaluate machine learning and LLM systems in Python: LLM pipelines, retrieval-augmented generation (RAG) and MLOps. I'm completing a Master of Engineering (MEng) in Electrical and Computer Engineering at the University of Toronto, with an emphasis in data analytics and machine learning, and I'm looking for full-time machine learning, AI, data and software roles from May 2027.
+I build and evaluate machine learning and LLM systems in Python: LLM extraction pipelines, retrieval-augmented generation (RAG) and the web and cloud services around them. I'm completing a Master of Engineering (MEng) in Electrical and Computer Engineering at the University of Toronto, with an emphasis in data analytics and machine learning, and I'm looking for full-time machine learning, AI, data and software roles from May 2027.
 
 ### What I'm working on
 
-- **AI for Mental Health (AI-M) program, University of Toronto.** Lead developer on an LLM pipeline that scores depression and PTSD questionnaire items from clinical interview transcripts, toward a co-authored journal paper. The work is as much evaluation as building: comparing models, auditing outputs against the source, and keeping the repository tested, with continuous integration and reviewed pull requests. The repository is private.
-- **CAIRO, my Master of Engineering project.** An AI agent that questions students about C programs they wrote, to test whether they understand them, with a classroom field test in winter 2027.
-- **Engineering education research, ISTEP.** Statistical analysis of Faculty survey data in Python toward conference papers, presented at the University of Toronto Engineering Research Conference in 2025 and 2026.
-- **Graduate course projects, each with a team of four.** [FitnessCoach](https://github.com/harunm1/FitnessCoach), a full-stack TypeScript web application with an AI workout coach (Next.js, PostgreSQL, Prisma); my part is the AI coach, the database schema and CI. [ContentCollab](https://github.com/nabeegh-khan/contentcollab), a cloud application for reviewing documents together, running on DigitalOcean Kubernetes since November; my part is the cluster, CI and autoscaling, load-tested from two to five replicas.
+- **AI for Mental Health (AI-M) program, University of Toronto.** Research software engineer leading a team of two on an LLM pipeline that extracts evidence for depression (PHQ-8) and PTSD (PCL-C) items from clinical interview transcripts, toward publication. Every piece of evidence must be an exact quote from the transcript, checked in code. Against a psychiatrist-annotated key, precision rose from 0.53 to 0.66 on 17 validation sessions, and temperature scaling cut expected calibration error from 0.24 to 0.05. Over 300 tests run as a required CI check. The repository is private.
+- **My Master of Engineering project.** A conversational AI agent that tests students' understanding of C programs they wrote, through tracing, what-if and follow-up questions, designed from over 90 papers. It has a Python backend with sandboxed runs, a job queue and PostgreSQL, a mobile-first React front end, and over 1,000 tests with Playwright end-to-end tests in CI, built for a January pilot. A session now asks tracing, what-if, concept-check and bug-you-hit questions, and a student whose program never compiled gets a debugging session instead. The work-in-progress abstract was accepted to ASEE 2027.
+- **JurisEngine.** A jurisdiction-aware retrieval prototype for Canadian employment law. I built it in five days for the Vector Institute FastLane program and pitched it to its industry partner. Code resolves the province and the law in force on the date before retrieval, and the LLM only phrases an answer a validator checks. It met its four success metrics in CI, including 100% jurisdiction precision over 27,918 served citations. FastAPI on Supabase PostgreSQL, with a demo on Vercel. The repository is private.
+- **Engineering education research, ISTEP.** Survey analysis in Python and LLM-assisted qualitative coding, toward an ASEE 2027 full paper and a CEEA 2027 paper with Dr. Qin Liu. Presented at the University of Toronto Engineering Research Conference in 2025 and 2026.
+- **Graduate course projects, each with a team of four.** [FitnessCoach](https://github.com/harunm1/FitnessCoach) is a Next.js and TypeScript web application with an AI workout coach, on Vercel and Neon PostgreSQL. My part is the foundation and the LLM coach: streamed replies, guardrails, and failover between providers. [ContentCollab](https://github.com/nabeegh-khan/contentcollab) is a cloud application for reviewing documents together, live on DigitalOcean Kubernetes. My part is the architecture, cluster, worker service and browser client, with autoscaling from two to five API pods, Prometheus and Grafana, and load tests at up to 250 requests a second.
 
 ### Projects
 
@@ -31,9 +32,9 @@ Before graduate school I spent nearly six years in engineering, including two ye
 
 **Data and MLOps:** Kafka, Spark, DuckDB, dbt, MLflow, FastAPI, Docker
 
-**Web and cloud (graduate coursework):** TypeScript, React, Next.js, Node.js, Express, PostgreSQL, Prisma, Kubernetes, DigitalOcean
+**Web and cloud (graduate coursework):** TypeScript, React, Next.js, Node.js, Express, PostgreSQL, Prisma, Supabase, Vercel, Kubernetes, Prometheus and Grafana, DigitalOcean
 
-**Engineering practice:** Git, GitHub Actions, pytest, Jest, pull-request review, Claude Code
+**Engineering practice:** Git, GitHub Actions, pytest, Jest, Playwright, pull-request review, Claude Code
 
 ### How I use AI
 
