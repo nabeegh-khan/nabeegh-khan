@@ -19,7 +19,7 @@ Also: education research with Dr. Qin Liu (ASEE 2027, CEEA 2027).
 ## How cAIro works
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Student's C program<br/>typed or uploaded"] --> B["Upload checks"]
     B --> C["Sandboxed run<br/>compile and run on examples"]
     C --> D["Question generation<br/>templates filled from the task<br/>and the student's program"]
