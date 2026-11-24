@@ -29,6 +29,26 @@ flowchart TD
 
 No model writes a question; each is a template filled from the student's program.
 
+### cAIro milestones
+
+| MEng project (ECE2500Y) | Date | Status |
+| --- | --- | --- |
+| Literature review | 28 Sep 2026 | Delivered |
+| Design proposal | 19 Oct 2026 | Delivered |
+| Research ethics protocol | 28 Oct 2026 | Submitted; amendments in preparation |
+| Design Review 1: backend and unit testing | 16 Nov 2026 | Delivered |
+| Design Review 2: frontend and unit testing | 30 Nov 2026 | In progress |
+| Design Review 3: integration | 14 Dec 2026 | Next |
+| Field testing | 11 Jan 2027 | Planned |
+| Final report draft | 22 Feb 2027 | Planned |
+| Final report | 5 Apr 2027 | Planned |
+
+| ASEE 2027, Computers in Education Division | Date | Status |
+| --- | --- | --- |
+| Work-in-progress abstract | 14 Oct 2026 | Submitted and accepted |
+| Draft paper | 20 Jan 2027 | In progress |
+| Final paper | 28 Apr 2027 | Planned |
+
 ## Stack
 
 **Machine learning and LLMs:** Python, PyTorch, Hugging Face Transformers, PEFT and LoRA, scikit-learn, pandas, OpenAI API, RAG, ChromaDB, RAGAS, ONNX
