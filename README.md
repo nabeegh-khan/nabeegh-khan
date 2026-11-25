@@ -8,46 +8,12 @@ MEng in Electrical and Computer Engineering, University of Toronto. Open to part
 
 | Project | What it does | Architecture | Result |
 | --- | --- | --- | --- |
-| **cAIro**, my MEng project<br>Private repository | A conversational agent that tests students' understanding of C programs they wrote. Designed from over 90 papers. | Python backend with sandboxed runs, a job queue and PostgreSQL. Mobile-first React front end. | Over 1,000 tests, with Playwright end-to-end tests in CI. Built for a January pilot. |
+| **cAIro**, my MEng project<br>Private repository | A conversational agent that tests students' understanding of C programs they wrote. Designed from over 90 papers. | Python backend with sandboxed runs, a job queue and PostgreSQL. Mobile-first React front end. | Over 1,000 tests, with Playwright end-to-end tests in CI. Built for a January pilot. ASEE 2027 work-in-progress abstract accepted. |
 | **AI-M**, University of Toronto<br>Research Software Engineer<br>Private repository | An LLM pipeline that extracts depression (PHQ-8) and PTSD (PCL-C) evidence from clinical interview transcripts. I lead a team of two. | Every piece of evidence must be an exact quote, checked in code. | Precision 0.53 to 0.66 on 17 sessions against a psychiatrist-annotated key. Expected calibration error 0.24 to 0.05. Over 300 tests in required CI. |
 | **JurisEngine**, Vector Institute FastLane<br>Private repository | Jurisdiction-aware retrieval for Canadian employment law, built in five days. | Code resolves the province and the law in force before retrieval. The LLM only phrases an answer a validator checks. | Met all four success metrics in CI; 100% jurisdiction precision over 27,918 served citations. |
 | [**ContentCollab**](https://github.com/nabeegh-khan/contentcollab), team of four | A cloud application for reviewing documents together, live on DigitalOcean Kubernetes. | My part: architecture, cluster, worker service, browser client. Autoscaling from two to five API pods. | Load tests at up to 250 requests a second. A deploy gate rolled a broken release back on the live cluster. |
 | [**FitnessCoach**](https://github.com/harunm1/FitnessCoach), team of four | A Next.js and TypeScript web app with an AI workout coach. | My part: the foundation and the LLM coach, with streamed replies, guardrails and provider failover. | A CSV import that checks every row before it reaches PostgreSQL. |
 | **Engineering education research**, ISTEP, University of Toronto | Research assistant with Dr. Qin Liu, analysing engineering student survey data. | Survey analysis in Python and LLM-assisted qualitative coding. | Equivalence tests and false-discovery-rate correction on 2024 to 2026 survey data. Presented at the University of Toronto Engineering Research Conference in 2025 and 2026. |
-
-## How cAIro works
-
-```mermaid
-flowchart TD
-    A["Student's C program<br/>typed or uploaded"] --> B["Upload checks"]
-    B --> C["Sandboxed run<br/>compile and run on examples"]
-    C --> D["Question generation<br/>templates filled from the task<br/>and the student's program"]
-    D --> E["Judging<br/>code checks run-based answers,<br/>two models judge explained ones"]
-    E -->|"one follow-up per question"| D
-    E --> F["Report<br/>result per concept,<br/>practice links"]
-```
-
-No model writes a question; each is a template filled from the student's program.
-
-### cAIro milestones
-
-| MEng project (ECE2500Y) | Date | Status |
-| --- | --- | --- |
-| Literature review | 28 Sep 2026 | Delivered |
-| Design proposal | 19 Oct 2026 | Delivered |
-| Research ethics protocol | 28 Oct 2026 | Submitted; amendments in preparation |
-| Design Review 1: backend and unit testing | 16 Nov 2026 | Delivered |
-| Design Review 2: frontend and unit testing | 30 Nov 2026 | In progress |
-| Design Review 3: integration | 14 Dec 2026 | Next |
-| Field testing | 11 Jan 2027 | Planned |
-| Final report draft | 22 Feb 2027 | Planned |
-| Final report | 5 Apr 2027 | Planned |
-
-| ASEE 2027, Computers in Education Division | Date | Status |
-| --- | --- | --- |
-| Work-in-progress abstract | 14 Oct 2026 | Submitted and accepted |
-| Draft paper | 20 Jan 2027 | In progress |
-| Final paper | 28 Apr 2027 | Planned |
 
 ## Stack
 
